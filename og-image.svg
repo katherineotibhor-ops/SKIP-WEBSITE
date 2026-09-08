@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Elevated Identities — credit repair, funding and authorized tradelines">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+
+  <!-- gold hairline accent, per brand rules: a thin rule, never a fill -->
+  <rect x="100" y="196" width="120" height="2" fill="#c9a227"/>
+
+  <text x="100" y="170" fill="#c9a227"
+        font-family="'Space Grotesk', Helvetica, Arial, sans-serif"
+        font-size="24" font-weight="500" letter-spacing="6">FINANCIAL SERVICES</text>
+
+  <text x="100" y="290" fill="#ffffff"
+        font-family="'Space Grotesk', Helvetica, Arial, sans-serif"
+        font-size="76" font-weight="700" letter-spacing="14">ELEVATED</text>
+  <text x="100" y="380" fill="#ffffff"
+        font-family="'Space Grotesk', Helvetica, Arial, sans-serif"
+        font-size="76" font-weight="700" letter-spacing="14">IDENTITIES</text>
+
+  <text x="100" y="460" fill="#c9c9c9"
+        font-family="Helvetica, Arial, sans-serif" font-size="28">
+    Credit repair &#183; Business &amp; personal funding &#183; Authorized tradelines
+  </text>
+
+  <rect x="100" y="530" width="1000" height="1" fill="#ffffff" opacity="0.16"/>
+  <text x="100" y="572" fill="#c9c9c9"
+        font-family="Helvetica, Arial, sans-serif" font-size="24">
+    elevatedidentities.com &#183; (602) 824-8796
+  </text>
+</svg>

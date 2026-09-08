@@ -1,0 +1,7 @@
+# Elevated Identities
+# Replace the Sitemap host below once the live domain is confirmed.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.elevatedidentities.com/sitemap.xml

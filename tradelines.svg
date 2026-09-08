@@ -1,0 +1,55 @@
+<svg viewBox="0 0 400 360" role="img" aria-labelledby="ei-tl-title ei-tl-desc"
+     xmlns="http://www.w3.org/2000/svg">
+  <title id="ei-tl-title">How an authorized tradeline appears on a credit report</title>
+  <desc id="ei-tl-desc">A stylised credit report panel listing three accounts. The third is
+    marked as added for an authorized user and is highlighted, showing the account's
+    established record of consecutive on-time monthly payments.</desc>
+
+  <rect data-tl="panel" x="6" y="6" width="388" height="348" rx="3" fill="#ffffff" stroke="#dedcd6"/>
+
+  <text x="22" y="36" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="14" font-weight="700"
+        letter-spacing="1.6" fill="#565656">CREDIT PROFILE</text>
+  <rect data-tl="accent" x="22" y="44" width="34" height="2" fill="#c9a227"/>
+  <line x1="22" y1="60" x2="378" y2="60" stroke="#dedcd6"/>
+
+  <g data-tl="row" style="--row:0">
+        <text x="22" y="100" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#0a0a0a">Revolving account</text>
+        <text x="22" y="122" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#565656">Opened 2019 &#183; Primary</text>
+        <rect data-tl="square" style="--sq:0" x="270" y="88" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:1" x="289" y="88" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:2" x="308" y="88" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:3" x="327" y="88" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:4" x="346" y="88" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:5" x="365" y="88" width="13" height="17" rx="1" fill="#565656"/>
+      </g>
+  <line x1="22" y1="146" x2="378" y2="146" stroke="#dedcd6"/>
+
+  <g data-tl="row" style="--row:1">
+        <text x="22" y="182" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#0a0a0a">Installment account</text>
+        <text x="22" y="204" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#565656">Opened 2021 &#183; Primary</text>
+        <rect data-tl="square" style="--sq:6" x="270" y="170" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:7" x="289" y="170" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:8" x="308" y="170" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:9" x="327" y="170" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:10" x="346" y="170" width="13" height="17" rx="1" fill="#565656"/>
+        <rect data-tl="square" style="--sq:11" x="365" y="170" width="13" height="17" rx="1" fill="#565656"/>
+      </g>
+
+  <g data-tl="highlight">
+    <rect x="14" y="228" width="372" height="84" rx="2" fill="#f6f6f4" stroke="#0a0a0a" stroke-width="1.5"/>
+    <rect data-tl="marker" x="14" y="228" width="4" height="84" fill="#c9a227"/>
+  </g>
+  <g data-tl="row" style="--row:2">
+        <text x="22" y="258" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#0a0a0a">Revolving account</text>
+        <text x="22" y="280" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#565656">Opened 2016 &#183; Authorized user</text>
+        <rect data-tl="square" style="--sq:12" x="270" y="246" width="13" height="17" rx="1" fill="#0a0a0a"/>
+        <rect data-tl="square" style="--sq:13" x="289" y="246" width="13" height="17" rx="1" fill="#0a0a0a"/>
+        <rect data-tl="square" style="--sq:14" x="308" y="246" width="13" height="17" rx="1" fill="#0a0a0a"/>
+        <rect data-tl="square" style="--sq:15" x="327" y="246" width="13" height="17" rx="1" fill="#0a0a0a"/>
+        <rect data-tl="square" style="--sq:16" x="346" y="246" width="13" height="17" rx="1" fill="#0a0a0a"/>
+        <rect data-tl="square" style="--sq:17" x="365" y="246" width="13" height="17" rx="1" fill="#0a0a0a"/>
+      </g>
+
+  <rect x="22" y="326" width="13" height="14" rx="1" fill="#0a0a0a"/>
+  <text x="43" y="337" font-family="Manrope, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#565656">Each square is one month paid on time</text>
+</svg>
