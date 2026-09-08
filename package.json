@@ -1,0 +1,13 @@
+{
+  "name": "elevated-identities-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing website for Elevated Identities",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
