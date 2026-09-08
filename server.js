@@ -16,7 +16,7 @@ const path = require("path");
 const zlib = require("zlib");
 const { createHash } = require("crypto");
 
-const ROOT = __dirname;);
+const ROOT = __dirname;
 const PORT = Number(process.env.PORT) || 3000;   // Railway injects PORT
 const HOST = "0.0.0.0";                          // must not be 127.0.0.1 on Railway
 
