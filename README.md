@@ -14,7 +14,8 @@ elevated-identities-website/
 │   ├── about.html            About
 │   ├── services.html         Services (5 sections, anchor-linked from Home)
 │   ├── faq.html              FAQ
-│   ├── testimonials.html     Testimonials (placeholder — see TODO-CLIENT.md)
+│   ├── process.html          Our Process & Client Standards (replaces Testimonials in nav)
+│   ├── testimonials.html     Testimonials — built, unlinked until approved reviews exist
 │   ├── contact.html          Contact + enquiry form
 │   ├── privacy.html          Privacy Policy (draft — needs legal review)
 │   ├── terms.html            Terms of Service (draft — needs legal review)
@@ -25,7 +26,7 @@ elevated-identities-website/
 │   └── assets/
 │       ├── css/styles.css
 │       ├── js/main.js
-│       └── img/favicon.svg, og-image.svg, tradelines.svg
+│       └── img/favicon.svg, og-image.svg, og-image.png, tradelines.svg
 ├── server.js                 Zero-dependency static server
 ├── package.json              Railway reads this
 ├── railway.json              Start command, healthcheck, restart policy
@@ -57,7 +58,7 @@ The enquiry form posts to **Formspree**. It ships with a placeholder endpoint an
 refuse to send until that is replaced — visitors see a message directing them to phone
 or email instead, so nothing silently disappears.
 
-1. Create a free account at <https://formspree.io> using **Elevatedid1@gmail.com**.
+1. Create a free account at <https://formspree.io> using **consultations@elevatedidentities.com**.
 2. Create a new form; Formspree gives you an endpoint like
    `https://formspree.io/f/abcdwxyz`.
 3. Open `contact.html`, find:

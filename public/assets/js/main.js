@@ -124,6 +124,10 @@
     message: {
       test: function (v) { return v.trim().length >= 10; },
       message: "Please tell us a little more — at least 10 characters."
+    },
+    consent: {
+      test: function (v) { return v === true; },
+      message: "Please confirm we may contact you about your enquiry."
     }
   };
 
@@ -156,7 +160,8 @@
     function validateField(field) {
       var rule = RULES[field.name];
       if (!rule) return true;
-      if (rule.test(field.value)) {
+      var value = field.type === "checkbox" ? field.checked : field.value;
+      if (rule.test(value)) {
         clearError(field);
         return true;
       }
@@ -205,7 +210,7 @@
       if (endpoint.indexOf("YOUR_FORM_ID") !== -1) {
         setStatus("error",
           "<p>This form is not connected yet. Please email " +
-          '<a href="mailto:Elevatedid1@gmail.com">Elevatedid1@gmail.com</a> or call ' +
+          '<a href="mailto:consultations@elevatedidentities.com">consultations@elevatedidentities.com</a> or call ' +
           '<a href="tel:+16028248796">(602) 824-8796</a> and we will come straight back to you.</p>');
         return;
       }
@@ -249,7 +254,7 @@
           setStatus("error",
             "<p>" + escapeHtml(message) +
             " Please try again, or email " +
-            '<a href="mailto:Elevatedid1@gmail.com">Elevatedid1@gmail.com</a> ' +
+            '<a href="mailto:consultations@elevatedidentities.com">consultations@elevatedidentities.com</a> ' +
             "directly.</p>");
         })
         .then(function () {
