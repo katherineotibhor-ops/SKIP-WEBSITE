@@ -25,7 +25,7 @@ elevated-identities-website/
 │   └── assets/
 │       ├── css/styles.css
 │       ├── js/main.js
-│       └── img/favicon.svg, og-image.svg, tradelines.svg
+│       └── img/favicon.svg, og-image.svg, og-image.png, tradelines.svg
 ├── server.js                 Zero-dependency static server
 ├── package.json              Railway reads this
 ├── railway.json              Start command, healthcheck, restart policy
