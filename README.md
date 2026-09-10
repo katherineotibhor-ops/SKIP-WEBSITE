@@ -58,7 +58,7 @@ The enquiry form posts to **Formspree**. It ships with a placeholder endpoint an
 refuse to send until that is replaced — visitors see a message directing them to phone
 or email instead, so nothing silently disappears.
 
-1. Create a free account at <https://formspree.io> using **Elevatedid1@gmail.com**.
+1. Create a free account at <https://formspree.io> using **consultations@elevatedidentities.com**.
 2. Create a new form; Formspree gives you an endpoint like
    `https://formspree.io/f/abcdwxyz`.
 3. Open `contact.html`, find:
