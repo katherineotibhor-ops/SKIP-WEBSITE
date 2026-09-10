@@ -124,6 +124,10 @@
     message: {
       test: function (v) { return v.trim().length >= 10; },
       message: "Please tell us a little more — at least 10 characters."
+    },
+    consent: {
+      test: function (v) { return v === true; },
+      message: "Please confirm we may contact you about your enquiry."
     }
   };
 
@@ -156,7 +160,8 @@
     function validateField(field) {
       var rule = RULES[field.name];
       if (!rule) return true;
-      if (rule.test(field.value)) {
+      var value = field.type === "checkbox" ? field.checked : field.value;
+      if (rule.test(value)) {
         clearError(field);
         return true;
       }

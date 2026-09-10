@@ -842,6 +842,41 @@ body[data-page="contact"]      .ei-nav__link[href="contact.html"] {
 }
 .ei-error:empty { display: none; }
 
+/* Consent checkbox — the label is the hit target, so the text is clickable too. */
+.ei-consent {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.7rem;
+  align-items: start;
+  font-size: var(--ei-step--1);
+  color: var(--ei-text-muted);
+  line-height: 1.55;
+  cursor: pointer;
+}
+
+.ei-checkbox {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin: 0.15rem 0 0;
+  flex: none;
+  accent-color: var(--ei-gold);
+  cursor: pointer;
+}
+
+.ei-checkbox:focus-visible {
+  outline: 2px solid var(--ei-gold);
+  outline-offset: 2px;
+}
+
+.ei-checkbox[aria-invalid="true"] { outline: 2px solid var(--ei-error); outline-offset: 2px; }
+
+.ei-form__note {
+  margin-top: var(--ei-sp-2xs);
+  font-size: var(--ei-step--1);
+  color: var(--ei-text-muted);
+  line-height: 1.55;
+}
+
 /* Honeypot */
 .ei-hp {
   position: absolute;

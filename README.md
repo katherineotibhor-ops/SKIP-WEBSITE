@@ -14,7 +14,8 @@ elevated-identities-website/
 │   ├── about.html            About
 │   ├── services.html         Services (5 sections, anchor-linked from Home)
 │   ├── faq.html              FAQ
-│   ├── testimonials.html     Testimonials (placeholder — see TODO-CLIENT.md)
+│   ├── process.html          Our Process & Client Standards (replaces Testimonials in nav)
+│   ├── testimonials.html     Testimonials — built, unlinked until approved reviews exist
 │   ├── contact.html          Contact + enquiry form
 │   ├── privacy.html          Privacy Policy (draft — needs legal review)
 │   ├── terms.html            Terms of Service (draft — needs legal review)
