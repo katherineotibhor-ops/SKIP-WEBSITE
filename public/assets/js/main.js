@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Elevated Identities — main.js
+   Elevated Identities: main.js
 
    Two independent enhancements, both optional:
      1. Mobile navigation panel (the nav is a plain list without JS).
@@ -123,7 +123,7 @@
     },
     message: {
       test: function (v) { return v.trim().length >= 10; },
-      message: "Please tell us a little more — at least 10 characters."
+      message: "Please tell us a little more, at least 10 characters."
     },
     consent: {
       test: function (v) { return v === true; },
@@ -242,7 +242,7 @@
             if (field) clearError(field);
           });
           setStatus("success",
-            "<p><strong>Thank you — your enquiry has been sent.</strong> " +
+            "<p><strong>Thank you. Your enquiry has been sent.</strong> " +
             "We will be in touch shortly to arrange your free consultation.</p>");
         })
         .catch(function (error) {

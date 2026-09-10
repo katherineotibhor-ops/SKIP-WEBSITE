@@ -1,7 +1,7 @@
 {
   "name": "Elevated Identities",
   "short_name": "Elevated ID",
-  "description": "Credit repair, business and personal funding, and authorized tradelines.",
+  "description": "Credit consulting, business and personal funding, and authorized tradelines.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#0a0a0a",

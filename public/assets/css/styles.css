@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Elevated Identities — styles.css
+   Elevated Identities: styles.css
    Palette: black / white / gold. Gold is a thin accent only: rules, dividers
    and single highlighted lines. Never a background, per the brand brief.
    ========================================================================== */
@@ -23,7 +23,7 @@
   --ei-text-invert:  #ffffff;
   --ei-text-invert-muted: #c9c9c9; /* 11.6:1 on --ei-ink */
 
-  /* Gold accent — text use is dark-background only */
+  /* Gold accent: text use is dark-background only */
   --ei-gold:         #c9a227;
   --ei-gold-bright:  #e3bf4a;   /* 9.2:1 on --ei-ink */
   --ei-gold-line:    rgba(201, 162, 39, 0.55);
@@ -219,7 +219,7 @@ hr {
 }
 .ei-section--dark .ei-section-head p { color: var(--ei-text-invert-muted); }
 
-/* Eyebrow: the gold hairline the brief asks for — a rule, not a fill */
+/* Eyebrow: the gold hairline the brief asks for: a rule, not a fill */
 .ei-eyebrow {
   display: block;
   font-family: var(--ei-font-head);
@@ -371,7 +371,7 @@ hr {
   min-height: var(--ei-header-h);
 }
 
-/* Wordmark — wide letterspacing per the brand pack, tightened on small
+/* Wordmark: wide letterspacing per the brand pack, tightened on small
    screens so the header cannot overflow a 320px viewport. */
 .ei-wordmark {
   display: inline-flex;
@@ -448,7 +448,7 @@ hr {
 .ei-nav-toggle[aria-expanded="true"] .ei-nav-toggle__bars span { opacity: 0; }
 .ei-nav-toggle[aria-expanded="true"] .ei-nav-toggle__bars::after { transform: translateY(-0.335rem) rotate(-45deg); }
 
-/* Nav panel — sits below the sticky header so the toggle stays visible and
+/* Nav panel: sits below the sticky header so the toggle stays visible and
    doubles as the close control. */
 .ei-nav {
   position: absolute;
@@ -842,7 +842,7 @@ body[data-page="contact"]      .ei-nav__link[href="contact.html"] {
 }
 .ei-error:empty { display: none; }
 
-/* Consent checkbox — the label is the hit target, so the text is clickable too. */
+/* Consent checkbox: the label is the hit target, so the text is clickable too. */
 .ei-consent {
   display: grid;
   grid-template-columns: auto 1fr;
