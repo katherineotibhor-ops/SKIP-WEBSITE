@@ -211,7 +211,7 @@
         setStatus("error",
           "<p>This form is not connected yet. Please email " +
           '<a href="mailto:consultations@elevatedidentities.com">consultations@elevatedidentities.com</a> or call ' +
-          '<a href="tel:+16028248796">(602) 824-8796</a> and we will come straight back to you.</p>');
+          '<a href="tel:+19049062310">(904) 906-2310</a> and we will come straight back to you.</p>');
         return;
       }
 
